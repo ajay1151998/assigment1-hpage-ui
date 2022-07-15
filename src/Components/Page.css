@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.btn-style {
+  background-image: linear-gradient(45deg, #ffc107, #e91e63);
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+}
+
+.main-header {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("./images/back-img.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: space-around;
+}
+
+.header-nav {
+  width: 100%;
+  display: flex;
+
+  justify-content: space-around;
+  flex-direction: row;
+}
+.nav-logo {
+  text-align: start;
+}
+.nav-logo h2 {
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.nav-link {
+  text-align: end;
+}
+.nav-link ul {
+  list-style: none;
+}
+
+.nav-link ul li {
+  display: inline-block;
+  margin: 0px 10px;
+  color: #ffffff;
+}
+.nav-link ul li button {
+  border: 2px solid #ffffff;
+  background: none;
+  border-radius: 5px;
+  padding: 5px 30px;
+  color: white;
+  font-size: 15px;
+}
+
+.search-filter {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ffffff6b;
+  border-radius: 10px;
+}
+
+.header-content h1,
+.header-content p {
+  text-align: center;
+  color: #ffffff;
+}
+
+.filter-item {
+  background-color: #ffffff;
+  margin: 5px 10px;
+  border-radius: 5px;
+  margin: 10px 0px;
+  width: 250px;
+  padding: 10px;
+  margin: 15px;
+}
+
+.filter-button {
+  text-align: center;
+  border-radius: 5px;
+  margin: 10px 0px;
+  width: 250px;
+  padding: 10px;
+  margin: 15px;
+  background: none;
+}
+
+.filter-button button {
+  width: 90px;
+  height: 40px;
+  font-size: large;
+  font-weight: 500;
+}
+
+/* -----------------------Explore and About us part ------------------*/
+
+#explore {
+  display: flex;
+  flex-direction: column;
+}
+.section-heading {
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+.section-heading h1 {
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.explore-body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.explore-card {
+  margin: 15px;
+}
+
+.card-image img {
+  height: 290px;
+
+  border-radius: 20px;
+}
+
+#about {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-widgit {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #ffffff6b;
+  border-radius: 10px;
+  margin-top: -19px;
+  position: relative;
+  width: 90%;
+  margin-left: 20px;
+  align-items: baseline;
+  padding: 10px;
+  border: 1px solid #ffffff;
+}
+.about-widgit {
+  justify-content: space-evenly;
+  background-color: #ffffff6b;
+  border-radius: 10px;
+  margin-top: -19px;
+  position: relative;
+  width: 90%;
+  margin-left: 20px;
+  align-items: baseline;
+  padding: 10px;
+  border: 1px solid #ffffff;
+}
+.widgit-info {
+  width: 50px;
+  height: 25px;
+  font-size: 12px;
+}
+
+.widgit-book {
+  width: 70px;
+  height: 40px;
+  font-size: 20px;
+}
+
+/* -------------Footer section----------------- */
+.footer-nav {
+  margin-top: 40px;
+  margin-bottom: 5px;
+  width: 100%;
+  display: flex;
+  background-color: lightblue;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.footer-right {
+  text-align: end;
+}
+
+.footer-right ul {
+  list-style: none;
+}
+
+.footer-right ul li {
+  display: inline-block;
+  margin: 0px 10px;
+  color: black;
+}
+
+.footer-right ul li button {
+  border: 2px solid black;
+  background: none;
+  border-radius: 5px;
+  padding: 5px 30px;
+  color: black;
+  font-size: 15px;
+  margin-top: 8px;
+}
