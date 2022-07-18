@@ -17,6 +17,23 @@ preview : https://luxury-cascaron-9285a5.netlify.app/
 --Footer Section
 
 
+#FOLDER STRUCTURE 
+|____Public
+|_______src
+       |____Components 
+                    |____images
+                    |_______page.js
+                    |_______page.css
+       |__App.js
+       |___App.test.js
+       |___index.js
+       |___index.css
+|__.gitignore
+|__ package-loack.json
+|__package.json
+
+
+
 
 ## Skill's
 
